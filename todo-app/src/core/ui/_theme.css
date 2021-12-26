@@ -1,0 +1,18 @@
+.white {
+	--background: white;
+	--input-bg: #f4f6fa;
+	--modal-bg: #dfdfdf;
+	--text-color: #383f50;
+	--button-bg: #f4f6fa;
+	--disabled-button-bg: #cfcfcf;
+	--input-placeholder-bg: #f4f6fa;
+}
+.dark {
+	--background: #23262c;
+	--input-bg: #2e3239;
+	--modal-bg: #23262c;
+	--text-color: #f4f6fa;
+	--button-bg: #404246;
+	--disabled-button-bg: #d7d7d7;
+	--input-placeholder-bg: #2e3239;
+}

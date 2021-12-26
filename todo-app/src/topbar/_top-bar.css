@@ -1,0 +1,11 @@
+.topbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	height: 80px;
+	width: 100%;
+}
+.topbar h1 {
+	font-weight: lighter;
+}

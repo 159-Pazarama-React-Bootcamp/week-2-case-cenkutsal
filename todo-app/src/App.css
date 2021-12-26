@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+
+.app {
+	display: flex;
+	margin: 5px;
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: var(--background);
+}
+.app__child {
+	text-align: center;
+	height: calc(100vh - 80px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 120px;
+}
