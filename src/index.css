@@ -1,22 +1,21 @@
 body {
-	margin: 0;
-	font-family: Poppins;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 12px;
-	line-height: 24px;
-	color: var(--text-color);
-	background: var(--background);
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    color: var(--text-color);
+    background: var(--background);
 }
 
 code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-		monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 *,
 *:before,
 *:after {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
