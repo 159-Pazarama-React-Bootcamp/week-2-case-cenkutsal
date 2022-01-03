@@ -1,0 +1,31 @@
+.input-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: min-content;
+	margin-bottom: 4px;
+
+	/* Inside Auto Layout */
+}
+.input {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 24px;
+	border-radius: 3px;
+	border-style: none;
+	background: var(--input-bg);
+	color: var(--text-color);
+
+	/* identical to box height, or 150% */
+}
+.input:focus {
+	outline: none;
+}
+
+.input::placeholder {
+	/* Light Grey */
+	background: var(--input-placeholder-bg);
+	color: #b2b7bb;
+}
